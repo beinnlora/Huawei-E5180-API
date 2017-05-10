@@ -1,12 +1,8 @@
-#Huawei E5180 API
+#Huawei E5186 API in PHP
+see https://www.lteforum.at/mobilfunk/toolbox-fuer-huawei-router-mit-hilink.1872/seite-11.html#post-121191 for GUI interface
 
-This project will let you interface with your Huawei E5180 Cube router easily.  
-This router is deployed by 3 DK, as "home routers" for their 4G connections. 
-You can get it for free if you order a 100GB or above package from 3.
-(Link where I bought mine: [https://www.3.dk/mobiler-tablets/modems-routere/huawei/huawei-e5180-cube](https://www.3.dk/mobiler-tablets/modems-routere/huawei/huawei-e5180-cube))  
+This project will let you interface with your Huawei E5186 router easily.  
 
-No advertisement or affiliation or anything, I wouldn't even really recommend the router. It got great speeds, but the WiFi is not the greatest, 
-and I've seen it overload multiple times when you have lots of clients on your (W)LAN. The 4G link holds, but the LAN/WiFi/Router portion is really bad, so I personally use it with a D-link DIR-810l as router, with it's WAN port connected to the Huawei routers single LAN port, so it can focus on just delivering 4G Internet.
 
 ##What can it do?
 
