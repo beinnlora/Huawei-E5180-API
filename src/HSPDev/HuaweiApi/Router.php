@@ -74,6 +74,16 @@ class Router
 		return $this->generalizedGet('api/monitoring/status');
 	}
 
+	
+	/**
+	* Gets the current router signal info, RSSI etc (Rssi does not appear on 2g?).
+	* @return SimpleXMLElement
+	*/
+	public function getSignal()
+	{
+		return $this->generalizedGet('api/device/signal');
+	}
+	
 	/**
 	* Gets traffic statistics (numbers are in bytes)
 	* @return SimpleXMLElement
